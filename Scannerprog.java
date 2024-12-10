@@ -25,5 +25,6 @@ public class Scannerprog {
         System.out.println("Hello "+name);
         System.out.println("You are "+age+" years old bro?" );
         System.out.println("You like "+food);
+        scanner.close();
     }
 }
